@@ -10,6 +10,7 @@ The format is based on [keep a changelog](http://keepachangelog.com) and this pr
 
 ### Fixed
 - Only apply Google Authentication token aud/azp validation if explicitly configured via google_auth.client_ids.
+- Fix MFA storage encryption key length error message to say bytes instead of bits.
 
 ## [3.41.0] - 2026-09-18
 ### Added
